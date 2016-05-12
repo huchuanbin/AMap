@@ -16,7 +16,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, HelloAMapActivity.class);
         startActivity(intent);
     }
-
+    @OnClick(R.id.bt_location_mode_source)
+    public void LocationModeSource() {
+        Intent intent = new Intent(this, LocationModeSourceActivity.class);
+        startActivity(intent);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

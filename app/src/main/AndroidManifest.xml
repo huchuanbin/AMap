@@ -32,6 +32,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".HelloAMapActivity"/>
+        <activity android:name=".LocationModeSourceActivity"/>
+        <service android:name="com.amap.api.location.APSService"></service>
     </application>
 
 </manifest>

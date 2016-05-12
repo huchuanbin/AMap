@@ -11,5 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello AMap" />
-
+    <Button
+        android:id="@+id/bt_location_mode_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地图定位" />
 </LinearLayout>
